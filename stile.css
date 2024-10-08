@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+body main, footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+h1{
+    background-color: #e8514e;
+    color: white;
+    text-align: center;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul{
+    background-color: #f7d100;
+    margin: 0;
+}
+
+a{  color:#2d57a4;
+    text-decoration: none;
+    margin: 80px;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #5071af;
+}
+
+nav ul li:hover > ul{
+    display: block;    
+}
+
+nav ul ul li {
+    display: block;
+}
+
+#banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+
